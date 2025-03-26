@@ -1,0 +1,20 @@
+name: staging
+on:
+    push:
+        branches: ["staging"]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Build application
+              run:
+                dotnet restore
+                dotnet publish
+            - name: Create zip file
+              run:
+                rm minapi.zip
+                zip -r minapi.zip ./MinimalApi/bin/Release/publish
+            - name: Upload artifact
+              uses: actions/upload-artifact@v4
