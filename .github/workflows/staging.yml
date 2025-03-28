@@ -42,5 +42,5 @@ jobs:
               with:
                 azcliversion: latest
                 inlineScript: |
-                  az webapp deploy --resource-group debeir-app-staging-westeurope-01 --name debeir-rg-staging-westeurope-01 --src-path ./minapi.zip
+                  az webapp deploy --resource-group debeir-rg-staging-westeurope-01 --name debeir-app-staging-westeurope-01 --src-path ./minapi.zip
 
