@@ -17,6 +17,7 @@ jobs:
                 dotnet publish
             - name: Create zip file
               run:
+                ls -lr
                 zip -r minapi.zip . -i MinimalApi/bin/Release/net8.0/
             - name: Upload artifact
               uses: actions/upload-artifact@v4
