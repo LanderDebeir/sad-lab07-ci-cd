@@ -16,7 +16,7 @@ jobs:
                 dotnet restore
                 dotnet publish
             - name: Create zip file
-              run:
+              run: |
                 ls -lr
                 zip -r minapi.zip . -i MinimalApi/bin/Release/net8.0/
             - name: Upload artifact
