@@ -9,12 +9,33 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
             - name: Build application
-              run:
+              run: |
                 dotnet restore
                 dotnet publish
             - name: Create zip file
               run:
-                rm minapi.zip
                 zip -r minapi.zip ./MinimalApi/bin/Release/publish
             - name: Upload artifact
               uses: actions/upload-artifact@v4
+              with:
+                name: minapi.zip
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Download zip
+              uses: actions/download-artifact@v4
+              with:
+                name: minapi.zip
+            - name: Authenticate with Azure
+              uses: azure/login@v2
+              with:
+                client-id: ${{ secrets.AZURE_CLIENT_ID }}
+                tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+                subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+            - name: Deploy code to azure app
+              uses: azure/cli@v2
+              with:
+                azcliversion: latest
+                inlineScript: |
+                  az webapp deploy --resource-group debeir-rg-staging-westeurope-01 --name debeir-rg-staging-westeurope-01 --src-path ./minapi.zip
+
