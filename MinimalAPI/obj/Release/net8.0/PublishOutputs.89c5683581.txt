@@ -1,0 +1,14 @@
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\MinimalAPI.exe
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\appsettings.json
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\MinimalAPI.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\MinimalAPI.deps.json
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\MinimalAPI.runtimeconfig.json
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\MinimalAPI.pdb
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\ClassLib.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\MinimalAPI\bin\Release\net8.0\publish\ClassLib.pdb

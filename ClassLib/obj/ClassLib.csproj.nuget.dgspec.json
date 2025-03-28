@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\examples-aspnet-minimalapi\\ClassLib\\ClassLib.csproj": {}
+    "C:\\Users\\lande\\Documents\\School\\2024-2025\\software architecture and deployment\\07 - Infrastructure as Code part 2\\sad-lab07-ci-cd\\ClassLib\\ClassLib.csproj": {}
   },
   "projects": {
-    "C:\\Code\\examples-aspnet-minimalapi\\ClassLib\\ClassLib.csproj": {
+    "C:\\Users\\lande\\Documents\\School\\2024-2025\\software architecture and deployment\\07 - Infrastructure as Code part 2\\sad-lab07-ci-cd\\ClassLib\\ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\examples-aspnet-minimalapi\\ClassLib\\ClassLib.csproj",
+        "projectUniqueName": "C:\\Users\\lande\\Documents\\School\\2024-2025\\software architecture and deployment\\07 - Infrastructure as Code part 2\\sad-lab07-ci-cd\\ClassLib\\ClassLib.csproj",
         "projectName": "ClassLib",
-        "projectPath": "C:\\Code\\examples-aspnet-minimalapi\\ClassLib\\ClassLib.csproj",
-        "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\examples-aspnet-minimalapi\\ClassLib\\obj\\",
+        "projectPath": "C:\\Users\\lande\\Documents\\School\\2024-2025\\software architecture and deployment\\07 - Infrastructure as Code part 2\\sad-lab07-ci-cd\\ClassLib\\ClassLib.csproj",
+        "packagesPath": "C:\\Users\\lande\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lande\\Documents\\School\\2024-2025\\software architecture and deployment\\07 - Infrastructure as Code part 2\\sad-lab07-ci-cd\\ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

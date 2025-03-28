@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ebcTUu4KWBM=",
+  "dgSpecHash": "0wBnzDjtDYQ=",
   "success": true,
-  "projectFilePath": "C:\\Code\\examples-aspnet-minimalapi\\ClassLib\\ClassLib.csproj",
+  "projectFilePath": "C:\\Users\\lande\\Documents\\School\\2024-2025\\software architecture and deployment\\07 - Infrastructure as Code part 2\\sad-lab07-ci-cd\\ClassLib\\ClassLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

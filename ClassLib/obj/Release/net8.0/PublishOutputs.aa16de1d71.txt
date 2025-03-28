@@ -1,0 +1,3 @@
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\ClassLib\bin\Release\net8.0\publish\ClassLib.dll
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\ClassLib\bin\Release\net8.0\publish\ClassLib.deps.json
+C:\Users\lande\Documents\School\2024-2025\software architecture and deployment\07 - Infrastructure as Code part 2\sad-lab07-ci-cd\ClassLib\bin\Release\net8.0\publish\ClassLib.pdb
