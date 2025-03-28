@@ -14,12 +14,13 @@ jobs:
                 dotnet publish
             - name: Create zip file
               run:
-                zip -r minapi.zip -i ./MinimalApi/bin/Release/
+                zip -r minapi.zip MinimalApi/bin/Release/net8.0/publish
             - name: Upload artifact
               uses: actions/upload-artifact@v4
               with:
                 name: minapi.zip
     deploy:
+        needs: build
         runs-on: ubuntu-latest
         steps:
             - name: Download zip
